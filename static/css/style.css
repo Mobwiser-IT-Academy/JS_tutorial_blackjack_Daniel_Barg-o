@@ -1,0 +1,64 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.flex-box-container-2 img{
+  border-radius: 15px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0px 10px 50px rgb(37, 50, 233, 1);
+}
+
+/* style flex-box-rps divs */
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+  background: url('https://ie1-gfebf.cdnppb.net/mexchangeblackjack/turbo/32/assets/gameView/tableBackground.png?v32') center;
+  color: white;
+}
+
+.flex-blackjack-row-1 div{
+  border: 1px solid black;
+  padding: 10px;
+  height: 350px;
+  text-align: center;
+  flex: 1;
+}
+.flex-blackjack-row-2 button{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+  border: 1px solid black;
+}
+
+.flex-blackjack-row-1 img{
+  width: 25%;
+  padding: 10px;
+}
+
+table, th, td {
+  padding: 5px;
+  border: 1px solid black;
+}
